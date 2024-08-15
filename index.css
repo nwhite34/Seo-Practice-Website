@@ -1,0 +1,82 @@
+body, html{
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    background-color: grey;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;    
+    justify-content: space-around;
+}
+    
+
+ a{
+   padding-left: 20px;
+   padding-right: 20px;
+   color: black;
+   font-size: 2rem;
+   font-family: Arial, Helvetica, sans-serif;
+   cursor: pointer;
+   text-decoration: none;
+ }
+ 
+ a:hover{
+    color:white;
+    background-color: black;
+ }
+
+ 
+
+.Logo{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+.PhoneNoBtn{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(26, 150, 233);
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main{
+    height: 100vh;
+    background-color: wheat;
+}
+
+.GridPractice{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:red;
+
+}
+
+footer{
+    background-color: green;
+    height: 100vh;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    nav a{
+        display: none;
+    }
+}
